@@ -1,9 +1,9 @@
 "use client";
-import Image from 'next/image'
+import Image from "next/image";
 import { CustomButton } from "@/components";
 
 const Hero = () => {
-  const handleScroll = () => {}
+  const handleScroll = () => {};
 
   return (
     <div className="hero">
@@ -12,14 +12,15 @@ const Hero = () => {
           Find book, or rent a car - quickly and easily!
         </h1>
 
-        <p className='hero__subtitle'>
-          Streamline your car rental experience with our effortles booking process.
+        <p className="hero__subtitle">
+          Streamline your car rental experience with our effortles booking
+          process.
         </p>
 
-        <CustomButton 
-          title="Explore cars" 
-          containerStyles="bg-primary-blue text-white rounded-full mt-10" 
-          handleClick={handleScroll} 
+        <CustomButton
+          title="Explore cars"
+          containerStyles="bg-primary-blue text-white rounded-full mt-10"
+          handleClick={handleScroll}
         />
 
         <div className="hero__image-container">
@@ -30,7 +31,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
